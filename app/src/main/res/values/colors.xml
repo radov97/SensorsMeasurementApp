@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2351A3</color>
+    <color name="colorPrimaryDark">#2351A3</color>
+    <color name="colorAccent">#7D660A</color>
+
+    <color name="graphX">#C90000</color>
+    <color name="graphY">#00C900</color>
+    <color name="graphZ">#0000C9</color>
+
+</resources>

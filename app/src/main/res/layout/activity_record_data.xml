@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordDataActivity">
+
+    <TextView
+        android:id="@+id/raw_label_acc_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginStart="133dp"
+        android:paddingRight="20dp"
+        android:text="X:"
+        android:textColor="@color/graphX" />
+
+    <TextView
+        android:id="@+id/raw_label_acc_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_below="@+id/raw_label_acc_x"
+        android:paddingRight="20dp"
+        android:text="Y:"
+        android:textColor="@color/graphY" />
+
+    <TextView
+        android:id="@+id/raw_label_acc_z"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/raw_label_acc_y"
+        android:paddingRight="20dp"
+        android:text="Z:"
+        android:textColor="@color/graphZ" />
+
+    <TextView
+        android:id="@+id/raw_value_acc_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_acc_x"
+        android:layout_alignBottom="@+id/raw_label_acc_x"
+        android:layout_toEndOf="@+id/raw_label_acc_x"
+        android:textColor="@color/graphX" />
+
+    <TextView
+        android:id="@+id/raw_value_acc_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_acc_y"
+        android:layout_alignBottom="@+id/raw_label_acc_y"
+        android:layout_toEndOf="@+id/raw_label_acc_y"
+        android:textColor="@color/graphY" />
+
+    <TextView
+        android:id="@+id/raw_value_acc_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_acc_z"
+        android:layout_alignBottom="@+id/raw_label_acc_z"
+        android:layout_toEndOf="@+id/raw_label_acc_z"
+        android:textColor="@color/graphZ" />
+
+
+    <TextView
+        android:id="@+id/raw_label_gyro_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginStart="133dp"
+        android:paddingRight="20dp"
+        android:text="X:"
+        android:textColor="@color/graphX" />
+
+    <TextView
+        android:id="@+id/raw_label_gyro_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_below="@+id/raw_label_gyro_x"
+        android:paddingRight="20dp"
+        android:text="Y:"
+        android:textColor="@color/graphY" />
+
+    <TextView
+        android:id="@+id/raw_label_gyro_z"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/raw_label_gyro_y"
+        android:paddingRight="20dp"
+        android:text="Z:"
+        android:textColor="@color/graphZ" />
+
+    <TextView
+        android:id="@+id/raw_value_gyro_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_gyro_x"
+        android:layout_alignBottom="@+id/raw_label_gyro_x"
+        android:layout_toEndOf="@+id/raw_label_gyro_x"
+        android:textColor="@color/graphX" />
+
+    <TextView
+        android:id="@+id/raw_value_gyro_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_gyro_y"
+        android:layout_alignBottom="@+id/raw_label_gyro_y"
+        android:layout_toEndOf="@+id/raw_label_gyro_y"
+        android:textColor="@color/graphY" />
+
+    <TextView
+        android:id="@+id/raw_value_gyro_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_gyro_z"
+        android:layout_alignBottom="@+id/raw_label_gyro_z"
+        android:layout_toEndOf="@+id/raw_label_gyro_z"
+        android:textColor="@color/graphZ" />
+
+    <TextView
+        android:id="@+id/raw_label_magne_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginStart="133dp"
+        android:paddingRight="20dp"
+        android:text="X:"
+        android:textColor="@color/graphX" />
+
+    <TextView
+        android:id="@+id/raw_label_magne_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_below="@+id/raw_label_magne_x"
+        android:paddingRight="20dp"
+        android:text="Y:"
+        android:textColor="@color/graphY" />
+
+    <TextView
+        android:id="@+id/raw_label_magne_z"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/raw_label_magne_y"
+        android:paddingRight="20dp"
+        android:text="Z:"
+        android:textColor="@color/graphZ" />
+
+    <TextView
+        android:id="@+id/raw_value_magne_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_magne_x"
+        android:layout_alignBottom="@+id/raw_label_magne_x"
+        android:layout_toEndOf="@+id/raw_label_magne_x"
+        android:textColor="@color/graphX" />
+
+    <TextView
+        android:id="@+id/raw_value_magne_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_magne_y"
+        android:layout_alignBottom="@+id/raw_label_magne_y"
+        android:layout_toEndOf="@+id/raw_label_magne_y"
+        android:textColor="@color/graphY" />
+
+    <TextView
+        android:id="@+id/raw_value_magne_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/raw_label_magne_z"
+        android:layout_alignBottom="@+id/raw_label_magne_z"
+        android:layout_toEndOf="@+id/raw_label_magne_z"
+        android:textColor="@color/graphZ" />
+
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="" />
+
+
+    <Button
+        android:id="@+id/button_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/button_quit"
+        android:shadowColor="#8A8A8A"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:text="@string/record"
+        android:textColor="#FFF1D6"
+        android:textSize="18sp"
+        tools:ignore="OnClick"
+        tools:text="Record" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="181dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/button_bulb_led"
+        android:shadowColor="#8A8A8A"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:text="@string/save"
+        android:textColor="#FFF1D6"
+        android:textSize="18sp"
+        tools:ignore="OnClick"
+        tools:text="Save" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/accelerometer"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_record"
+        android:layout_below="@+id/raw_label_acc_z"
+        android:text="@string/gyroscope"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/raw_label_gyro_z"
+        android:layout_centerHorizontal="true"
+        android:text="@string/magnetometer"
+        android:textSize="20sp" />
+
+</RelativeLayout>

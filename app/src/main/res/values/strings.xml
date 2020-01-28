@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sensor Fusion</string>
+    <string name="unilogo">Image</string>
+    <string name="departament">Department of Electrical Engineering and Electronics</string>
+    <string name="push">Press to continue</string>
+    <string name="andrei">Andrei Radovici \n Id: 201160057</string>
+    <string name="sensors">Sensors</string>
+    <string name="record_data">Record Data</string>
+    <string name="sensors_specifications">Available Sensors</string>
+    <string name="lantern">Lantern</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="aprinde">Switch led</string>
+    <string name="animation">Switch bulb</string>
+    <string name="enable">Camera Enabled</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="gravity">Gravity</string>
+    <string name="save">Save</string>
+    <string name="record">Record</string>
+    <string name="x">X:</string>
+    <string name="y">Y:</string>
+    <string name="z">Z:</string>
+    <string name="Intro">The app is about
+sensor fusion and is intended as an illustration of what sensor capabilities of any smartphone that run
+android have. Graphs of the main sensors can be watched in real time, except for video, microphones
+and radio signals. For further processing, the logged data should be easily transferable to any
+computer and accessed by other software such as Matlab.</string>
+    <string name="Help1">1. Sensors \nGraphs in real time can be seen for the following sensors: accelerometer, gravity, gyroscope and magnetometer.</string>
+    <string name="Help3">2. Record Data \nAccelerometer gyroscope and magnetometer are the main sensor options to be chosen. The user can select and record in real time any combination of sensors. \nThe data will be then saved in the internal memory of the phone. Some users might need to boot their smartphone to access the data.</string>
+    <string name="Help2">3. Available Sensors \nThis is a list generated automatically by the app. The list is meant to display all the sensors that can be found on the presented device.</string>
+    <string name="Help4">4. Lantern \nThis is just a nice to have feature designed to make the app more friendly.</string>
+    <string name="Help5">For any inquiry email me at: andreirdv97@gmail.com </string>
+</resources>

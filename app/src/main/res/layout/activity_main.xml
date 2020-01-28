@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="301dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@drawable/unilogo"
+        app:srcCompat="@drawable/unilogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+        android:contentDescription="@string/departament"
+        android:text="@string/departament"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/but1"
+        android:contentDescription="@string/push"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="-1"
+        android:shadowRadius="25"
+        android:text="@string/push"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="13dp"
+        android:contentDescription="@string/andrei"
+        android:text="@string/andrei" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="266dp"
+        android:layout_height="210dp"
+        android:layout_above="@+id/but1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bulbyellow_on" />
+
+    <Button
+        android:id="@+id/button_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/but1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-65dp"
+        android:shadowColor="#757575"
+        android:shadowDx="1"
+        android:shadowDy="5"
+        android:shadowRadius="7"
+        android:text="@string/exit"
+        android:background="@drawable/button_quit"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+</RelativeLayout>

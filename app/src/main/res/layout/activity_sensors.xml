@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SensorsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@drawable/uniminilogo"
+        app:srcCompat="@drawable/uniminilogo" />
+
+
+    <Button
+        android:id="@+id/button_accelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/button_sensors"
+        android:contentDescription="@string/accelerometer"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="-1"
+        android:shadowRadius="25"
+        android:text="@string/accelerometer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_gyroscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_accelerometer"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_sensors"
+        android:contentDescription="@string/gyroscope"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="-1"
+        android:shadowRadius="25"
+        android:text="@string/gyroscope"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_magnetometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_gyroscope"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_sensors"
+        android:contentDescription="@string/magnetometer"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="-1"
+        android:shadowRadius="25"
+        android:text="@string/magnetometer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_magnetometer"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_sensors"
+        android:contentDescription="@string/gravity"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="-1"
+        android:shadowRadius="25"
+        android:text="@string/gravity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
